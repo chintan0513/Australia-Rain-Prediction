@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn     # only if you used sklearn preprocessing
+tensorflow==2.12.0
