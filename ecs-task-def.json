@@ -1,7 +1,7 @@
 {
   "family": "rain-task",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::2775-4670-1765:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::277546701765:role/ecsTaskExecutionRoleNew",
   "containerDefinitions": [
     {
       "name": "rain-predictor",
