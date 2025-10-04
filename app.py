@@ -61,4 +61,5 @@ def predict(req: PredictRequest):
     return {"rain_probability": prob, "prediction": int(prob >= 0.5)}
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=8080)
