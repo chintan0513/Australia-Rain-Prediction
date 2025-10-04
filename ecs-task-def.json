@@ -5,7 +5,7 @@
   "containerDefinitions": [
     {
       "name": "rain-predictor",
-      "image": "277546701765.dkr.ecr.us-east-1.amazonaws.com/australia-rain-prediction",
+      "image": "277546701765.dkr.ecr.us-east-1.amazonaws.com/australia-rain:latest",
       "essential": true,
       "portMappings": [
         {
