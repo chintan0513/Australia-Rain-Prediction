@@ -1,0 +1,22 @@
+{
+  "family": "rain-task",
+  "networkMode": "awsvpc",
+  "executionRoleArn": "arn:aws:iam::2775-4670-1765:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "rain-predictor",
+      "image": "2775-4670-1765.dkr.ecr.us-east-1.amazonaws.com/australia-rain:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024"
+}
