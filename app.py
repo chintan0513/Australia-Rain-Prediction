@@ -59,3 +59,6 @@ def predict(req: PredictRequest):
     prob = float(prediction[0][0])
 
     return {"rain_probability": prob, "prediction": int(prob >= 0.5)}
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
