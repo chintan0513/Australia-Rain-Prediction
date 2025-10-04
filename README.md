@@ -78,7 +78,8 @@ Features include temperature, humidity, wind speed, cloud cover, and other atmos
    pip install -r requirements.txt
    ```
 
-▶️ Usage
+## ▶️ Usage
+
 Train & Explore the Model
 
 Run the Jupyter notebook:
@@ -93,7 +94,7 @@ python app.py
 
 By default, the API will run at http://127.0.0.1:5000/.
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 Type: Artificial Neural Network (ANN)
 
@@ -105,7 +106,7 @@ Loss function: Binary cross-entropy
 
 Metrics: Accuracy, precision, recall, F1-score
 
-🐳 Docker Setup
+## 🐳 Docker Setup
 
 Build the Docker image:
 
